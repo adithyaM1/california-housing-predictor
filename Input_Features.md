@@ -158,4 +158,10 @@ Raw Data → StandardScaler → LinearRegression → Predictions
 * **Static Data**: Trained on a snapshot; doesn’t adapt to market trends
 
 ---
+---
+
+### 🖼️ Streamlit UI Screenshot – Prediction Example
+
+![California Housing Price Prediction Streamlit UI](./housing_price_predictor_page_1.png)
+
 
