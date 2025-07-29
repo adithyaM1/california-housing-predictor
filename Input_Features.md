@@ -2,7 +2,7 @@
 
 ###  Model Architecture Overview
 
-This price prediction model uses a **Linear Regression** to predict median house values in California based on 8 census-derived features. The model is implemented using **Scikit-learn**, trained on the California Housing dataset, and deployed using **Streamlit**.
+This price prediction model uses a ** **Random Forest Regressor*** to predict median house values in California based on 8 census-derived features. The model is implemented using **Scikit-learn**, trained on the California Housing dataset, and deployed using **Streamlit**.
 
 ---
 
@@ -88,6 +88,30 @@ Interpretation: The model explains 81% of the variance in house prices with a lo
 * **Latitude × Longitude** → Captures coastal vs inland pricing differences
 
 ---
+---
+
+Model Technical Specifications 
+
+* **Algorithm**: RandomForestRegressor
+
+python
+RandomForestRegressor(
+    n_estimators=100,
+    max_depth=None,
+    random_state=42
+)
+
+
+* **Why Random Forest?**
+
+  * Handles nonlinear relationships
+  * No need for feature scaling
+  * Robust to outliers
+  * Built-in feature importance metrics
+
+---
+
+
 
 
 ---
