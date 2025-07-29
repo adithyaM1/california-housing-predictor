@@ -81,7 +81,7 @@ Try the live app here: [California Housing Price Predictor](https://california-h
 
 ## Model Saving
 
-The trained Random Forest model is saved as `housing_model.pkl` in the project root directory.
+The trained Linear Regreesion model is saved as `housing_model.pkl` in the project root directory.
 
 ---
 
