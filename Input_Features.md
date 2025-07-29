@@ -89,15 +89,6 @@ Interpretation: The model explains 81% of the variance in house prices with a lo
 
 ---
 
-### Data Preprocessing Pipeline
-
-```text
-# Random Forest pipeline
-Raw Data → Feature Selection → Train/Test Split → RandomForestRegressor → Predictions
-
-# Linear Regression baseline (for comparison)
-Raw Data → StandardScaler → LinearRegression → Predictions
-```
 
 ---
 
