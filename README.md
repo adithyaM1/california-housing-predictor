@@ -74,13 +74,7 @@ Use the sidebar sliders to adjust feature values and view the predicted median h
 
 Try the live app here: [California Housing Price Predictor](https://california-housing-predictor-wjyjpoxgxdqrkcj5xmghzl.streamlit.app/)
 
----
 
-## Screenshot
-
-![California Housing Price Predictor](screenshot.png)
-
----
 
 ## Model Saving
 
