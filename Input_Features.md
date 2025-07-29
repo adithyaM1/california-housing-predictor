@@ -70,28 +70,6 @@ This price prediction model uses a **Random Forest Regressor** to predict median
 * **Unit**: Degrees West (Negative)
 * **Importance**: \~15%
 
----
-
-### Model Technical Specifications
-
-* **Algorithm**: RandomForestRegressor
-
-```python
-RandomForestRegressor(
-    n_estimators=100,
-    max_depth=None,
-    random_state=42
-)
-```
-
-* **Why Random Forest?**
-
-  * Handles nonlinear relationships
-  * No need for feature scaling
-  * Robust to outliers
-  * Built-in feature importance metrics
-
----
 
 ### Model Performance Metrics
 
