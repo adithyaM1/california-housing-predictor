@@ -2,7 +2,7 @@
 
 ###  Model Architecture Overview
 
-This price prediction model uses a **Random Forest Regressor** to predict median house values in California based on 8 census-derived features. The model is implemented using **Scikit-learn**, trained on the California Housing dataset, and deployed using **Streamlit**.
+This price prediction model uses a **Linear Regression** to predict median house values in California based on 8 census-derived features. The model is implemented using **Scikit-learn**, trained on the California Housing dataset, and deployed using **Streamlit**.
 
 ---
 
